@@ -577,7 +577,7 @@ def main_app():
     results = data[data["titre"]==film_choisi] 
 
     if st.button("traduction du synopsis"):
-        modelTraductionFrancaisAnglais = pipeline("translation", model="Helsinki-NLP/opus-mt-en-fr",cache_dir="models/")
+        modelTraductionFrancaisAnglais = pipeline("translation", model="Helsinki-NLP/opus-mt-en-fr")
         traduction_clique = True
     else:
         traduction_clique = False
