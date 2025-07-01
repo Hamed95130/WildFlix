@@ -44,5 +44,6 @@ plotly
 matplotlib
 pipeline
 transformers
+sentencepiece==0.2.0
 streamlit_option_menu
 torch
