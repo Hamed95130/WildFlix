@@ -65,4 +65,4 @@ tzdata==2025.2
 urllib3==2.4.0
 watchdog==6.0.0
 plotly
-scikit-learn
+scikit-learn.neighbors
