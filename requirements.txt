@@ -41,7 +41,7 @@ tzdata==2025.2
 urllib3==2.4.0
 watchdog==6.0.0
 plotly
-matplotlib
+matplotlib==3.8.4
 pipeline
 transformers
 streamlit_option_menu
